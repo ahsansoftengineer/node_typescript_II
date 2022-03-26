@@ -90,4 +90,5 @@ npm i --save-dev @types/node @types/express @types/ejs @types/express-ejs-layout
     "baseUrl": "."
   },
 ```
+#### npm run dev
 
