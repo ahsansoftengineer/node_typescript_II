@@ -4,15 +4,12 @@
 1. Node
 2. Express
 3. EJS
-4. 
-2. Nodemon
-4. Build Solution
-
+4. Nodemon
 #### Initializing project
 1. npm init
 2. npm init @eslint/config
 #### Dependencies
-> npm i <package>
+> npm i \<package\>
 1. express
 2. ejs 
 3. express-ejs-layouts
