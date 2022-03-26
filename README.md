@@ -6,3 +6,27 @@
 3. EJS
 4. Build Solution
 
+#### Initializing project
+> npm init -y
+#### Dependencies
+> npm i <package> --save
+1. express
+2. ejs express-ejs-layouts
+3. dotenv
+3. mysql2
+
+#### DevDependencies
+> npm i <package> --save-dev
+1. typescript
+2. eslint
+3. nodemon
+4. @types/node 
+5. @types/express
+6. @types/ejs @types/express-ejs-layouts
+7. @types/dotenv
+6. @types/mysql
+
+#### Configuration
+1. tsconfig.json
+2. index.ts
+

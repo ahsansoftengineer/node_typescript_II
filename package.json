@@ -1,0 +1,40 @@
+{
+  "name": "node_typescrpt_ii",
+  "version": "1.0.0",
+  "description": "> Here we are Setting up the followings in Node Application\r 1. Node with Typescript\r 2. Nodemon\r 3. EJS\r 4. Build Solution",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsansoftengineer/node_typescript_II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahsansoftengineer/node_typescript_II/issues"
+  },
+  "homepage": "https://github.com/ahsansoftengineer/node_typescript_II#readme",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.0",
+    "@types/express": "^4.17.13",
+    "@types/express-ejs-layouts": "^2.5.0",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^17.0.23",
+    "@types/sequelize": "^4.28.11",
+    "eslint": "^8.12.0",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.6.3"
+  }
+}
