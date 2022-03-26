@@ -9,8 +9,8 @@
 4. Build Solution
 
 #### Initializing project
-> npm init -y
-> npm init @eslint/config
+1. npm init
+2. npm init @eslint/config
 #### Dependencies
 > npm i <package>
 1. express

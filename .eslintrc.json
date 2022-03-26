@@ -16,5 +16,10 @@
         "@typescript-eslint"
     ],
     "rules": {
+      "no-multiple-empty-lines":"warn",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/ban-types": "off",
+      "@typescript-eslint/prefer-const": "off"
     }
+
 }
