@@ -14,19 +14,30 @@
 > npm i <package>
 1. express
 2. ejs express-ejs-layouts
-3. dotenv
-3. mysql2
+4. dotenv
+5. mysql2
+6. sequelize
 
 #### DevDependencies
 > npm i <package> --save-dev
 1. typescript
 2. eslint
 3. nodemon
-4. @types/node 
-5. @types/express
-6. @types/ejs @types/express-ejs-layouts
-7. @types/dotenv
-6. @types/mysql
+4. ts-node 
+5. shelljs 
+6. fs-extra 
+7. rimraf
+8. npm-run-all
+##### Equivalent Types DevDependencies
+1. @types/node 
+2. @types/express
+3. @types/ejs @types/express-ejs-layouts
+4. @types/dotenv
+5. @types/shelljs 
+6. @types/fs-extra -save-dev
+7. @types/mysql
+8. @types/sequelize
+
 
 #### Configuration
 1. tsconfig.json
