@@ -1,0 +1,68 @@
+{
+  "name": "node_typescrpt_ii",
+  "version": "1.0.0",
+  "description": "> Here we are Setting up the followings in Node Application\r 1. Node with Typescript\r 2. Nodemon\r 3. EJS\r 4. Build Solution",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "copy-assets": "ts-node tools/copyAssests",
+    "lint": "tslint -c tslint.json -p tsconfig.json --fix",
+    "tsc": "tsc",
+    "build": "npm-run-all clean lint tsc copy-assets",
+    "dev:start": "npm-run-all build start",
+    "dev": "nodemon --watch src -e ts,ejs --exec npm run dev:start",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "esnext",
+    "outDir": "./dist",
+    "baseUrl": "."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsansoftengineer/node_typescript_II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahsansoftengineer/node_typescript_II/issues"
+  },
+  "homepage": "https://github.com/ahsansoftengineer/node_typescript_II#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/ejs": "^3.1.0",
+    "@types/express": "^4.17.13",
+    "@types/express-ejs-layouts": "^2.5.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^17.0.23",
+    "@types/sequelize": "^4.28.11",
+    "@types/shelljs": "^0.8.11",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.12.0",
+    "fs-extra": "^10.0.1",
+    "nodemon": "^2.0.15",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.5",
+    "ts-node": "^10.7.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.6.3"
+  }
+}
