@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 
 import express from 'express'
 import expressEjsLayouts from 'express-ejs-layouts'
-import RoutingRegisteration from './routes/Index.routes';
+import RoutingRegisteration from './routes/index.routes';
 
 const app = express();
 // CONFIGURATIONS
@@ -15,7 +15,8 @@ app.use(expressEjsLayouts)
 
 app.set('layout','layouts/layout');
 app.set('view engine', 'ejs');
-app.set('view', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views'));
+app.set('./', express.static(path.join(__dirname, 'public')));
 
 RoutingRegisteration(app);
 

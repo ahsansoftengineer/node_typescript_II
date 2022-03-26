@@ -10,6 +10,7 @@
 
 #### Initializing project
 > npm init -y
+> npm init @eslint/config
 #### Dependencies
 > npm i <package>
 1. express
@@ -37,6 +38,7 @@
 6. @types/fs-extra -save-dev
 7. @types/mysql
 8. @types/sequelize
+
 
 
 #### Configuration
