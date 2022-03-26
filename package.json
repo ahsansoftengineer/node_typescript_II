@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "esnext",
+    "outDir": "./dist",
+    "baseUrl": "./src"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ahsansoftengineer/node_typescript_II.git"

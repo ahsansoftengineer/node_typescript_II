@@ -1,15 +1,17 @@
 ## Node with Typescrpt
 #### To Create the Node application with TypeScript follow this steps
 > Here we are Setting up the followings in Node Application
-1. Node with Typescript
-2. Nodemon
+1. Node
+2. Express
 3. EJS
+4. 
+2. Nodemon
 4. Build Solution
 
 #### Initializing project
 > npm init -y
 #### Dependencies
-> npm i <package> --save
+> npm i <package>
 1. express
 2. ejs express-ejs-layouts
 3. dotenv
@@ -29,4 +31,5 @@
 #### Configuration
 1. tsconfig.json
 2. index.ts
+3. dotenv
 
