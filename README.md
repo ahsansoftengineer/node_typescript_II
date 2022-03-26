@@ -1,10 +1,13 @@
-## Node with Typescrpt
+## Node with Typescrpt Complete Setup
 #### To Create the Node application with TypeScript follow this steps
 > Here we are Setting up the followings in Node Application
 1. Node
-2. Express
-3. EJS
-4. Nodemon
+2. Typescript
+3. Express
+4. EJS
+5. MySql
+6. Sequelize
+7. Nodemon
 #### Initializing project
 1. npm init
 2. npm init @eslint/config
@@ -21,7 +24,7 @@ npm i --save express ejs express-ejs-layouts dotenv mysql2 sequelize
 ```
 
 #### DevDependencies
-> npm i <package> --save-dev
+> npm i \<package\> --save-dev
 1. typescript
 2. eslint
 3. tslint
@@ -36,6 +39,7 @@ npm i --save express ejs express-ejs-layouts dotenv mysql2 sequelize
 npm i --save-dev typescript eslint tslint nodemon ts-node shelljs fs-extra rimraf npm-run-all
 ```
 ##### Equivalent Types DevDependencies
+> npm i \<package\> --save-dev
 1. @types/node 
 2. @types/express
 3. @types/ejs 
